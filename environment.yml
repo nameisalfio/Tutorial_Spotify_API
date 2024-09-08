@@ -1,0 +1,8 @@
+name: smda
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - anaconda
+  - python-dotenv
+prefix: /home/nameisalfio/miniconda3/envs/smda
