@@ -1,51 +1,51 @@
-# Ignora i file macOS specifici
+# Ignore macOS system files
 .DS_Store
 
-# Ignora le variabili d'ambiente
+# Ignore environment variables file
 .env
 
-# Ignora i file di backup e temporanei
+# Ignore backup and temporary files
 *.bak
 *.tmp
 
-# Ignora i file binari ed eseguibili
+# Ignore binary and executable files
 *.exe
 *.dll
 *.so
 *.dylib
 
-# Ignora i file di cache Python
+# Ignore Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignora i file di cache Jupyter Notebook
+# Ignore Jupyter Notebook checkpoint files
 .ipynb_checkpoints/
 
-# Ignora i file di log
+# Ignore log files
 *.log
 
-# Ignora i file di database locale
+# Ignore local database files
 db.sqlite3
 
-# Ignora i file di ambiente virtuali
+# Ignore virtual environments
 venv/
 env/
 .vscode/
 
-# Ignora i file di build e distribuzione
+# Ignore build and distribution files
 build/
 dist/
 *.spec
 
-# Ignora i file di cache pip
+# Ignore pip cache files
 pip-wheel-metadata/
 
-# Ignora i file generati da IDE o editor comuni
+# Ignore IDE or editor-specific files
 # Visual Studio Code
 .vscode/*
-!.vscode/settings.json  # (opzionale: puoi mantenere le impostazioni personalizzate)
+!.vscode/settings.json  # (Optional: keep custom settings if needed)
 
 # PyCharm
 .idea/
@@ -54,23 +54,23 @@ pip-wheel-metadata/
 .project
 .classpath
 
-# Ignora i file di cache di npm (se usi npm)
+# Ignore npm cache files (if using npm)
 node_modules/
 
-# Ignora i file di cache di pipenv
+# Ignore pipenv cache files
 .Python
 pipfile.lock
 
-# Ignora i file di cache di Poetry (se usi Poetry)
+# Ignore Poetry lock files (if using Poetry)
 poetry.lock
 
-# Ignora i file di cache di Jupyter
+# Ignore Jupyter notebook cache files
 nbconvert.ipynb
 
-# Ignora i file di configurazione locali
+# Ignore local configuration files
 config.local.json
 settings.local.json
 
-# Ignora i file di dati intermedi o generati
+# Ignore intermediate or generated data files
 data/cache/
 data/temp/
