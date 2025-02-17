@@ -1,5 +1,76 @@
-.env
-.ipynb_checkpoints
-.__pycache__
+# Ignora i file macOS specifici
 .DS_Store
-.virtual_documents
+
+# Ignora le variabili d'ambiente
+.env
+
+# Ignora i file di backup e temporanei
+*.bak
+*.tmp
+
+# Ignora i file binari ed eseguibili
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignora i file di cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignora i file di cache Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignora i file di log
+*.log
+
+# Ignora i file di database locale
+db.sqlite3
+
+# Ignora i file di ambiente virtuali
+venv/
+env/
+.vscode/
+
+# Ignora i file di build e distribuzione
+build/
+dist/
+*.spec
+
+# Ignora i file di cache pip
+pip-wheel-metadata/
+
+# Ignora i file generati da IDE o editor comuni
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json  # (opzionale: puoi mantenere le impostazioni personalizzate)
+
+# PyCharm
+.idea/
+
+# Eclipse
+.project
+.classpath
+
+# Ignora i file di cache di npm (se usi npm)
+node_modules/
+
+# Ignora i file di cache di pipenv
+.Python
+pipfile.lock
+
+# Ignora i file di cache di Poetry (se usi Poetry)
+poetry.lock
+
+# Ignora i file di cache di Jupyter
+nbconvert.ipynb
+
+# Ignora i file di configurazione locali
+config.local.json
+settings.local.json
+
+# Ignora i file di dati intermedi o generati
+data/cache/
+data/temp/
